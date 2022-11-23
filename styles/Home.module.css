@@ -1540,7 +1540,7 @@
     flex-direction: column;
   }
   .footer .wrapper .foot2 {
-    width: 370px;
+    width: 320px;
   }
   .footer .wrapper .foot2 .ul {
     gap: 14px;
@@ -1564,7 +1564,7 @@
   .footer .wrapper .foot2 .ul .li .info {
     color: white;
     font-family: "Poppins";
-    width: 265px;
+    width: 205px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
