@@ -54,10 +54,10 @@ function Secttion2() {
                             />
                     </figure>
                     <div className={styles.description}>
-                        <h4 className={styles.h4}>Undercut Steak</h4>
-                        <p>Experience the taste of premium 
-                        quality beef for perfect and 
-                        delicious steaks.</p>
+                        <h4 className={styles.h4}>Lamb Leg</h4>
+                        <p>Premium quality lamb leg to 
+ensure the highest standards of 
+excellence</p>
                     </div>
                 </div>
                 <div className={styles.carding}>
@@ -70,10 +70,10 @@ function Secttion2() {
                             />
                     </figure>
                     <div className={styles.description}>
-                        <h4 className={styles.h4}>Undercut Steak</h4>
-                        <p>Experience the taste of premium 
-                        quality beef for perfect and 
-                        delicious steaks.</p>
+                        <h4 className={styles.h4}>Drum Sticks</h4>
+                        <p>Easy to cook, high in protein and 
+best quality in affordable rates
+for you.</p>
                     </div>
                 </div>
              </div>
