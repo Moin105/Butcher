@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Image from "next/image";
 import doctor from '../public/butcher.png'
 import { useRouter } from 'next/router';
-import Modal from './modal'
+// import Modal from './modal'
 
 function Contact() {
   const router = useRouter();
@@ -129,7 +129,7 @@ function Contact() {
         </div>
     </div>
     
-    {show == true && <Modal message={response} />}
+    {/* {show == true && <Modal message={response} />} */}
 </>)
 }
 
