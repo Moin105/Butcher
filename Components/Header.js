@@ -2,22 +2,22 @@ import React from 'react'
 import styles from './../styles/Home.module.css'
 import Image from 'next/image'
 import logo from '../public/logo.png'
-
+import Link from 'next/link'
 function Header() {
   return (
     <>
     <header className={styles.header}>
-      <figure className={styles.logo}>
+      <Link href="/"><figure className={styles.logo}>
         <Image 
          src={logo}
          alt="logo"
          layout="fill"
          objectFit="contain"
         />
-      </figure>
-      <button className={styles.connect}>
+      </figure></Link>
+    <Link href="#contact"><button className={styles.connect}>
        Lets Connect
-      </button>
+      </button></Link>
     </header>
     </>
   )

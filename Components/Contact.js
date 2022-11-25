@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import Image from "next/image";
 import doctor from '../public/butcher.png'
 import { useRouter } from 'next/router';
-// import Modal from './modal'
+import Modal from './Modal'
 
 function Contact() {
   const router = useRouter();
@@ -13,6 +13,8 @@ function Contact() {
         name: "",
         email: "",
         message: "",
+        phone:"",
+        subject:""
       });
       const handleChange = (e) => {
         setInputs({
@@ -23,7 +25,7 @@ function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
     
-        if (inputs.name == "" || inputs.email == "" || inputs.message == "") {
+        if (inputs.name == "" || inputs.email == "" || inputs.message == "" || inputs.phone == ""|| inputs.subject == "") {
             console.log("gee",inputs.email)
           setShow(true);
           setResponse("Enter Required Details");
@@ -38,8 +40,8 @@ function Contact() {
             body: JSON.stringify(inputs),
           };
     
-          fetch("https://www.admin.ecareserve.com/api/contact_form", requestOptions)
-            .then((response) => response.json())
+          fetch("https://globaltechnologia.org/webAdmin/api/meet_shop_contact", requestOptions)
+            .then((response) => {return response.json()})
             .then((res) => {
               console.log(res);
               setResponse(res.message);
@@ -54,7 +56,7 @@ function Contact() {
       };
   return (
     <>
-    <div className={styles.background}>
+    <div className={styles.background} id="contact">
     <div className={styles.contact} id='contact'>
       
         <div className={styles.sep}>
@@ -84,31 +86,31 @@ function Contact() {
                       />
                        <input
                         type='text'
-                        name='name'
-                        id='name'
+                        name='email'
+                        id='email'
                         className={styles.input}
-                        placeholder='Name'
-                        value={inputs.name}
+                        placeholder='Email'
+                        value={inputs.email}
                         onChange={handleChange}
                       />
                      </div>
                     <div className={styles.crow}>
                     <input
                         type='text'
-                        name='email'
-                        id='email'
-                        placeholder='Email'
+                        name='phone'
+                        id='phone'
+                        placeholder='Phone Number'
                         className={styles.input}
-                        value={inputs.email}
+                        value={inputs.phone} 
                         onChange={handleChange}
                       />
                         <input
                         type='text'
-                        name='email'
-                        id='email'
-                        placeholder='Email'
+                        name='subject'
+                        id='subject'
+                        placeholder='Subject'
                         className={styles.input}
-                        value={inputs.email}
+                        value={inputs.subject}
                         onChange={handleChange}
                       />
                     </div>
@@ -129,7 +131,7 @@ function Contact() {
         </div>
     </div>
     
-    {/* {show == true && <Modal message={response} />} */}
+    {show == true && <Modal message={response} />}
 </>)
 }
 
