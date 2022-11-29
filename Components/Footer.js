@@ -40,7 +40,7 @@ function Footer() {
 office, Islamabad.</p></li>
                     <li className={styles.li}><h5 className={styles.p}>Reigional: <br></br> office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
 office, Islamabad.</p></li>
-                    <li className={styles.li}><h5 className={styles.p}>Phone: </h5> <p className={styles.info}>+92 51 5461 356  | +91 334 999 1414</p></li>
+                    <li className={styles.li}><h5 className={styles.p}>Phone: </h5> <p className={styles.info}>+92 51 5461 356  | +92 334 999 1414</p></li>
                     <li className={styles.li}><h5 className={styles.p}>Email:</h5><p className={styles.info}>aliabbas@pearlmeat.com</p></li>
                 </ul>
                 </div>

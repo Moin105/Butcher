@@ -25,7 +25,7 @@ function Secttion2() {
              <div className={styles.des}>
                 <h3 className={styles.h3}>OUR PREMIUM <br></br>CUTS!</h3>
                 <div className={styles.line}></div>
-                <p>Our products guareente a real treat.Around the clock, our employees are dedictated to provide this experience.</p>
+                <p>Our products guarantee a real treat.Around the clock, our employees are dedictated to provide this experience.</p>
              </div>
              <div className={styles.imgsec}>
                 <div className={styles.carding}>
