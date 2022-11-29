@@ -22,7 +22,7 @@ function Section4() {
                 <div className={styles.line}></div>
                 <p>The quality of our product starts with the careful selection of animals. For the 
 best compliance, we prefer slaughtering of our animals in the government 
-slaughterhouses.</p>
+slaughter houses.</p>
                <div className={styles.rowthing}>
                 <figure className={styles.figure}>
                 <Image
@@ -50,8 +50,8 @@ statisfication.</p>
                 <div className={styles.disp}>
                     <h5 className={styles.h5}>We care for your health</h5>
                     <p className={styles.p}>We understand the importance of hygiene and cleanliness
-from our cattle farms to our slaughter house and from our
-slaughter house to our retail stores.</p>
+from our cattle farms to our slaughterhouse and from our
+slaughterhouse to our retail stores.</p>
                 </div>
                </div>
             </div>
