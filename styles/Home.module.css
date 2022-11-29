@@ -19,6 +19,18 @@
   font-style: normal;
   font-display: swap;
 }
+.line {
+  width: 76px;
+  height: 4px;
+  background-color: #D61F25;
+}
+
+.lines {
+  width: 76px;
+  height: 4px;
+  background-color: #D61F25;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("./fonts/Poppins-SemiBold.woff2") format("woff2"), url("./fonts/Poppins-SemiBold.woff") format("woff");
@@ -1376,6 +1388,7 @@
     padding: 6px 12px 2px 10px;
     border-radius: 0px 0px 24px 24px;
     justify-content: center;
+    height: 40px;
   }
   .section2 .wrapper .imgsec .carding .description .h4 {
     font-size: 12px;
@@ -1625,7 +1638,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    margin: 0px 0px 8px 0px;
+    margin: 0px 0px -8px 0px;
   }
   .footer .wrapper .foot2 .ul .li h5 {
     color: white;
@@ -2347,4 +2360,9 @@
     color: #FFFFFF;
     font-size: 12px;
   }
+}
+.line {
+  width: 76px;
+  height: 4px;
+  background-color: #D61F25;
 }/*# sourceMappingURL=Home.module.css.map */

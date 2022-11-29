@@ -18,14 +18,15 @@ function Footer() {
                 <Image priority src={logo} alt="banner" layout="fill"  objectFit="contain"/>
                 </figure>
                 <p className={styles.p} style={{maxWidth:"420px"}}>
-                Pearl meat is one of the best quality meat providers in Pakistan. It is a brand of MHM foods and Beverages. Products includes fresh Goat meat, fresh Beef meat, poultry, special meat, frozen mutton parts, vale parts and beef parts. 
+                Pearl meat is one of the best quality meat providers in Pakistan. It is a brand of MHM foods and Beverages. Products include fresh Goat meat, fresh Beef meat, poultry, special meat, frozen mutton parts, veal parts and beef parts. 
                 </p>
             </div>
 
             <div className={styles.foote}>
                 <div className={styles.foot3}>
                     <ul className={styles.ul}>
-                        <li className={styles.li}><h3 className={styles.h3}>COMPANY LINKS</h3>            </li>
+                        <li className={styles.li}><h3 className={styles.h3}>COMPANY LINKS</h3><div className={styles.line}></div>            </li>
+                        
                  <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Home</p>      </li></Link>
                  <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Products</p></li></Link>
                  <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Why Prealmeat</p>        </li></Link>
@@ -36,6 +37,7 @@ function Footer() {
                 <div className={styles.foot2}>
                 <ul className={styles.ul}>
                     <li className={styles.li}><h3 className={styles.h3}>Support</h3></li>
+                    <div className={styles.lines}></div>
                     <li className={styles.li}><h5 className={styles.p}>Head office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
 office, Islamabad.</p></li>
                     <li className={styles.li}><h5 className={styles.p}>Reigional: <br></br> office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
