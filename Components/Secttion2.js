@@ -8,7 +8,7 @@ import meat3 from '../public/meat3.png'
 function Secttion2() {
   return (
     <>
-    <div className={styles.section2}>
+    <div className={styles.section2} id="products">
         {/* <div style={{width:"100%",position:"relative"}}>
   <figure className={styles.figu}>
             <Image 

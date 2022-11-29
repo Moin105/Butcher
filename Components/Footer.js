@@ -10,7 +10,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <>
-       <div className={styles.footer}>
+       <div className={styles.footer} id="footer">
         <div className={styles.wrapper}>
  <div className={styles.foots}>
  <div className={styles.foot1}>
@@ -28,10 +28,10 @@ function Footer() {
                         <li className={styles.li}><h3 className={styles.h3}>COMPANY LINKS</h3><div className={styles.line}></div>            </li>
                         
                  <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Home</p>      </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Products</p></li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Why Prealmeat</p>        </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>About Us</p>            </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Contact Us</p>        </li></Link>
+                 <Link href="/#products"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Products</p></li></Link>
+                 <Link href="/#whypearlmeat"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Why Prealmeat</p>        </li></Link>
+                 <Link href="/#footer"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>About Us</p>            </li></Link>
+                 <Link href="/contact"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Contact Us</p>        </li></Link>
                     </ul>
                 </div>
                 <div className={styles.foot2}>

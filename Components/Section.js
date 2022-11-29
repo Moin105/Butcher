@@ -10,11 +10,11 @@ import b5 from '../public/b5.png'
 function Section() {
   return (
     <>
-    <div className={styles.section}>
+    <div className={styles.section} id="whypearlmeat">
         <div className={styles.wrapper}>
              <h2 className={styles.h2}>Reasons to buy from Pearl Meat</h2>
              <p>Pearl meat is one of the best quality meat providers in Pakistan. It is a brand of MHM foods and Beverages. 
-Products that Pearl Meat currently supplying in market includes fresh Goat meat, fresh Beef meat, poultry, special meat, frozen mutton parts, veal parts and beef parts. </p>
+Products that Pearl Meat currently supplying in market include fresh Goat meat, fresh Beef meat, poultry, special meat, frozen mutton parts, veal parts and beef parts. </p>
         <div className={styles.boxes}>
             <div className={styles.cards}>
             <figure className={styles.box}>
