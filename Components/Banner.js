@@ -45,8 +45,13 @@ function Banner() {
                     </div>
                 </div>
             </div>
+
             <div className={styles.bannerbottom}>
                 <div className={styles.wrapper}>
+                    <div className={styles.toprow}>
+                        <h5 className={styles.h5}>Explore the range</h5>
+                        <div className={styles.line}></div>
+                    </div>
                     <div className={styles.boxrow}>
                         <div className={styles.card}>
                         <figure className={styles.figure}>

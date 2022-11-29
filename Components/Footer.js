@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import logo from '../public/logo.png';
+import {HiChevronDoubleRight} from 'react-icons/hi'
 // import arrow from '../public/arrow.png';
 import Link from 'next/link'
 
@@ -25,11 +26,11 @@ function Footer() {
                 <div className={styles.foot3}>
                     <ul className={styles.ul}>
                         <li className={styles.li}><h3 className={styles.h3}>COMPANY LINKS</h3>            </li>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}>Home</p>      </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}>Products</p></li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}>Why Prealmeat</p>        </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}>About Us</p>            </li></Link>
-                 <Link href="/"><li className={styles.li}><p className={styles.p}>Contact Us</p>        </li></Link>
+                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Home</p>      </li></Link>
+                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Products</p></li></Link>
+                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Why Prealmeat</p>        </li></Link>
+                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>About Us</p>            </li></Link>
+                 <Link href="/"><li className={styles.li}><p className={styles.p}><HiChevronDoubleRight/>Contact Us</p>        </li></Link>
                     </ul>
                 </div>
                 <div className={styles.foot2}>
