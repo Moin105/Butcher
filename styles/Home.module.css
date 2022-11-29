@@ -1184,20 +1184,20 @@
     padding: 170px 0px 16px 0px;
   }
   .banner .wrapper .h2 {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 15px;
   }
   .banner .wrapper p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    width: 284px;
+    width: 400px;
     line-height: 20px;
   }
   .banner .wrapper .brand {
-    margin: 40px 0px 60px 0px;
+    margin: 40px 0px 10px 0px;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 300px;
+    max-width: 400px;
   }
   .banner .wrapper .brand .img {
     width: 131px;
@@ -1244,19 +1244,18 @@
     align-items: center;
   }
   .section .wrapper h2 {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 16px;
     margin-bottom: 18px;
   }
   .section .wrapper p {
-    max-width: 880px;
+    max-width: 580px;
     font-size: 14px;
     line-height: 20px;
-    max-width: 335px;
   }
   .section .wrapper .boxes {
     padding-top: 34px;
-    max-width: 305px;
+    max-width: 485px;
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
@@ -1296,9 +1295,10 @@
     margin: -20px 0px 20px 0px;
   }
   .section2 .wrapper .des p {
-    max-width: 265px;
+    max-width: 465px;
     word-break: break-all;
     font-size: 14px;
+    text-align: center;
     line-height: 16px;
   }
   .section2 .wrapper .imgsec {
@@ -1388,7 +1388,7 @@
   }
   .section3 .wrapper .right .rowthing .disp {
     margin-bottom: 30px;
-    max-width: 254px;
+    max-width: 85%;
   }
   .section3 .wrapper .right .rowthing .disp .h5 {
     font-size: 18px;
@@ -1402,8 +1402,8 @@
     line-height: 22px;
   }
   .section6 {
-    height: 352px;
-    background-image: url("../public/band.png");
+    height: 232px;
+    background-image: url("../public/section6.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1463,6 +1463,7 @@
     max-width: 700px;
     margin-top: 0px;
     background-color: #D61F25;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
     padding: 10px;

@@ -1225,19 +1225,19 @@ color: white;
       .wrapper{
         padding: 170px 0px 16px 0px;
         .h2{
-          font-size: 16px;
+          font-size: 24px;
           line-height: 15px;
         }p{
-          font-size: 14px;
+          font-size: 16px;
           text-align:center ;
-          width: 284px;
+          width: 400px;
           line-height: 20px;
         }
         .brand{
-          margin:40px 0px 60px 0px ;
+          margin:40px 0px 10px 0px ;
           flex-wrap: wrap;
           justify-content: center;
-          max-width: 300px;
+          max-width: 400px;
           .img{
             width:131px;
             height: 131px;
@@ -1285,19 +1285,18 @@ color: white;
         .wrapper{
         flex-direction: column;
         align-items: center;
-         h2{    font-size: 16px;
+         h2{    font-size: 24px;
           line-height: 16px;
            margin-bottom: 18px;
          }
          p{
-           max-width: 880px;
-           font-size: 14px;
+          max-width: 580px;
+          font-size: 14px;
            line-height: 20px;
-           max-width: 335px;
          }
          .boxes{
            padding-top: 34px;
-           max-width: 305px;
+           max-width: 485px;
            gap: 30px;
            justify-content: center;
            flex-wrap: wrap;
@@ -1336,9 +1335,10 @@ color: white;
              margin: -20px 0px 20px 0px;
            }
            p{
-             max-width: 265px;
+             max-width: 465px;
              word-break: break-all;
              font-size: 14px;
+             text-align: center;
              line-height: 16px;
            }
          }
@@ -1426,7 +1426,7 @@ color: white;
               }
               .disp{
                 margin-bottom: 30px;
-                max-width: 254px;
+                max-width: 85%;
                 .h5{
                   font-size: 18px;
                   margin: 10px 0px;
@@ -1444,8 +1444,8 @@ color: white;
         }
     }
     .section6{
-        height: 352px;
-        background-image: url('../public/band.png');
+        height: 232px;
+        background-image: url('../public/section6.png');
 
         background-size: contain;
         background-repeat: no-repeat;
@@ -1511,6 +1511,7 @@ color: white;
                   max-width: 700px;
                   margin-top: 0px;
                   background-color: #D61F25;
+                  margin: 0 auto;
                   align-items: center;
                   justify-content: center;
                   padding: 10px;
