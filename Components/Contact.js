@@ -25,15 +25,52 @@ function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
     
-        if (inputs.name == "" || inputs.email == "" || inputs.message == "" || inputs.phone == ""|| inputs.subject == "") {
+        if (inputs.name == "" ) {
             console.log("gee",inputs.email)
           setShow(true);
-          setResponse("Enter Required Details");
+          setResponse("Enter Your Name");
           setTimeout(function () {
             setShow(false);
           }, 5000);
           return;
-        } else {
+        }
+        else   if (inputs.email == "" ) {
+          console.log("gee",inputs.email)
+        setShow(true);
+        setResponse("Enter Your Email");
+        setTimeout(function () {
+          setShow(false);
+        }, 5000);
+        return;
+      }
+      else   if ( inputs.message == "") {
+        console.log("gee",inputs.email)
+      setShow(true);
+      setResponse("Leave A Message");
+      setTimeout(function () {
+        setShow(false);
+      }, 5000);
+      return;
+    }  else   if ( inputs.phone == "") {
+      console.log("gee",inputs.email)
+    setShow(true);
+    setResponse("Enter Your Phone Number");
+    setTimeout(function () {
+      setShow(false);
+    }, 5000);
+    return;
+  }  else   if ( inputs.subject == "") {
+    console.log("gee",inputs.email)
+  setShow(true);
+  setResponse("Enter Subject");
+  setTimeout(function () {
+    setShow(false);
+  }, 5000);
+  return;
+} 
+        
+        
+        else {
           const requestOptions = {
             method: "POST",
             headers: { "Content-Type": "application/json" },

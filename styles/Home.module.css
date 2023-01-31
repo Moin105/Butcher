@@ -90,9 +90,13 @@
 }
 .header .logo {
   position: relative;
-  width: 101px;
+  width: 121px;
   margin: 0px;
-  height: 100px;
+  height: 120px;
+}
+.header .boxer {
+  display: flex;
+  gap: 10px;
 }
 .header .connect {
   padding: 12px 37px 12px 38px;
@@ -103,6 +107,19 @@
   font-style: normal;
   cursor: pointer;
   border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header .uan {
+  padding: 12px 37px 12px 38px;
+  border: 2px solid #D61F25;
+  border-radius: 48px;
+  color: white;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  cursor: pointer;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -129,7 +146,7 @@
   font-family: "Poppins";
   font-style: normal;
   color: white;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
@@ -316,7 +333,7 @@
   color: white;
 }
 .section2 .wrapper .des .h3 {
-  font-family: "Bebas Neue";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -330,7 +347,7 @@
   margin: -20px 0px 20px 0px;
 }
 .section2 .wrapper .des p {
-  max-width: 380px;
+  max-width: 340px;
 }
 .section2 .wrapper .imgsec {
   display: flex;
@@ -423,6 +440,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+  cursor: -webkit-grab;
+  cursor: grab;
   font-size: 16px;
   line-height: 24px;
   color: black;
@@ -660,7 +679,7 @@
   max-width: 1920px;
   justify-content: center;
   padding: 100px 0px 40px 0px;
-  background-color: #D61F25;
+  background-color: white;
 }
 .footer .wrapper {
   align-items: center;
@@ -676,7 +695,7 @@
 .footer .wrapper .foot1 {
   display: flex;
   flex-direction: column;
-  color: #FFFFFF;
+  color: #D61F25;
 }
 .footer .wrapper .foot1 .figure {
   cursor: pointer;
@@ -708,7 +727,7 @@
   line-height: 12px;
 }
 .footer .wrapper .foot1 .p {
-  color: #FFFFFF;
+  color: #D61F25;
   cursor: pointer;
 }
 .footer .wrapper .foote {
@@ -726,13 +745,26 @@
   flex-direction: column;
   gap: 24px;
 }
+.footer .wrapper .foot2 .ul .lis {
+  display: flex;
+  flex-direction: column;
+}
+.footer .wrapper .foot2 .ul .lis .h3 {
+  color: #D61F25;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 0px 8px 0px;
+}
 .footer .wrapper .foot2 .ul .li {
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
 }
 .footer .wrapper .foot2 .ul .li .h3 {
-  color: #FFFFFF;
+  color: #D61F25;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -741,12 +773,12 @@
   margin: 0px 0px 8px 0px;
 }
 .footer .wrapper .foot2 .ul .li h5 {
-  color: white;
+  color: #D61F25;
   width: 100px;
   margin: 0;
 }
 .footer .wrapper .foot2 .ul .li .info {
-  color: white;
+  color: #D61F25;
   font-family: "Poppins";
   width: 265px;
   font-style: normal;
@@ -756,7 +788,7 @@
 }
 .footer .wrapper .foot2 .ul .li .p {
   cursor: pointer;
-  color: white;
+  color: #D61F25;
 }
 .footer .wrapper .foot3 {
   width: 196px;
@@ -770,7 +802,7 @@
   gap: 24px;
 }
 .footer .wrapper .foot3 .ul .li .h3 {
-  color: #FFFFFF;
+  color: #D61F25;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -783,7 +815,7 @@
   cursor: pointer;
   display: flex;
   gap: 3px;
-  color: #FFFFFF;
+  color: #D61F25;
 }
 
 .footie {
@@ -810,16 +842,49 @@
   color: white;
 }
 
-@media only screen and (max-width: 1500px) {
+.sigma {
+  display: flex;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  flex-direction: column;
+}
+.sigma .sig {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+@media only screen and (max-width: 1550px) {
+  .sigma {
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 70px;
+    align-items: center;
+    right: 0px;
+    flex-direction: column;
+  }
+  .sigma .sig {
+    width: 105px;
+    height: 105px;
+    position: relative;
+  }
   .header {
-    max-width: 1120px;
-    margin: 25px 0px 0px 0px;
+    max-width: 1325px;
+    margin: 25px 15px 0px 15px;
+    padding: 0px 15px 0px 15px;
   }
   .header .logo {
-    width: 75px;
-    height: 75px;
+    width: 95px;
+    height: 95px;
   }
   .header .connect {
+    padding: 9px 25px 9px 26px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header .uan {
     padding: 9px 25px 9px 26px;
     font-size: 14px;
     line-height: 18px;
@@ -1139,7 +1204,7 @@
   }
   .footer {
     padding: 40px 0px 20px 0px;
-    background-color: #D61F25;
+    background-color: white;
   }
   .footer .wrapper {
     width: 90%;
@@ -1170,7 +1235,7 @@
     margin: 0;
   }
   .footer .wrapper .foot2 .ul .li .h3 {
-    color: #FFFFFF;
+    color: #D61F25;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -1179,12 +1244,12 @@
     margin: 0px 0px 8px 0px;
   }
   .footer .wrapper .foot2 .ul .li h5 {
-    color: white;
+    color: #D61F25;
     width: 100px;
     margin: 0;
   }
   .footer .wrapper .foot2 .ul .li .info {
-    color: white;
+    color: #D61F25;
     font-family: "Poppins";
     width: 265px;
     font-style: normal;
@@ -1194,7 +1259,7 @@
   }
   .footer .wrapper .foot2 .ul .li .p {
     cursor: pointer;
-    color: white;
+    color: #D61F25;
   }
   .footer .wrapper .foot3 {
     width: 196px;
@@ -1208,8 +1273,17 @@
     flex-direction: column;
     gap: 14px;
   }
+  .footer .wrapper .foot3 .ul .lis .h3 {
+    color: #D61F25;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    margin: 0px 0px 8px 0px;
+  }
   .footer .wrapper .foot3 .ul .li .h3 {
-    color: #FFFFFF;
+    color: #D61F25;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -1219,11 +1293,27 @@
   }
   .footer .wrapper .foot3 .ul .li .p {
     cursor: pointer;
-    color: #FFFFFF;
+    color: #D61F25;
     font-size: 12px;
   }
 }
 @media only screen and (max-width: 850px) {
+  .sigma {
+    display: flex;
+    width: 120px;
+    align-items: center;
+    position: absolute;
+    top: 53px;
+    align-items: center;
+    right: 24px;
+    flex-direction: row;
+  }
+  .sigma .sig {
+    margin: 0;
+    width: 55px;
+    height: 55px;
+    position: relative;
+  }
   .header {
     max-width: 750px;
     padding: 0px 20px;
@@ -1234,6 +1324,11 @@
     height: 60px;
   }
   .header .connect {
+    padding: 9px 25px 9px 26px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header .uan {
     padding: 9px 25px 9px 26px;
     font-size: 14px;
     line-height: 18px;
@@ -1701,6 +1796,9 @@
     padding: 9px 25px 9px 26px;
     font-size: 14px;
     line-height: 18px;
+  }
+  .header .uan {
+    display: none;
   }
   .banner .wrapper {
     padding: 170px 0px 16px 0px;

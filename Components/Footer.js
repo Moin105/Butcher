@@ -36,14 +36,14 @@ function Footer() {
                 </div>
                 <div className={styles.foot2}>
                 <ul className={styles.ul}>
-                    <li className={styles.li}><h3 className={styles.h3}>Support</h3></li>
-                    <div className={styles.lines}></div>
+                     <li className={styles.lis}><h3 className={styles.h3}>Support</h3><div className={styles.lines}></div></li>
+                    
                     <li className={styles.li}><h5 className={styles.p}>Head office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
 office, Islamabad.</p></li>
-                    <li className={styles.li}><h5 className={styles.p}>Reigional: <br></br> office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
-office, Islamabad.</p></li>
-                    <li className={styles.li}><h5 className={styles.p}>Phone: </h5> <p className={styles.info}>+92 51 5461 356  | +92 334 999 1414</p></li>
-                    <li className={styles.li}><h5 className={styles.p}>Email:</h5><p className={styles.info}>aliabbas@pearlmeat.com</p></li>
+                    <li className={styles.li}><h5 className={styles.p}>Reigional: <br></br> office:</h5> <p className={styles.info}>84/B Main Iqbal Road Peshawer Road
+Rawalpindi.</p></li>
+                    <li className={styles.li}><h5 className={styles.p}>UAN No:</h5> <p className={styles.info}>0330 222 9 222</p></li>
+                    <li className={styles.li}><h5 className={styles.p}>Email:</h5><p className={styles.info}>contact@pearlmeat.com</p></li>
                 </ul>
                 </div>
             </div>

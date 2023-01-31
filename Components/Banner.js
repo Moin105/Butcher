@@ -11,7 +11,9 @@ import poultry from '../public/poutlry.png'
 function Banner() {
   return (
     <>
+       
         <div style={{display:"flex",flexDirection:"column",width:"100%",alignItems:"center"}}>
+
             <div className={styles.banner}>
                 <div className={styles.wrapper}>
                     <h2 className={styles.h2}>Pakistan’s Number 1 Meat Supplier!</h2>
