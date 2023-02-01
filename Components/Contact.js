@@ -8,6 +8,8 @@ import Modal from './Modal'
 function Contact() {
   const router = useRouter();
   const [show, setShow] = useState(false);
+  var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
   const [response, setResponse] = useState("");
     const [inputs, setInputs] = useState({
         name: "",
@@ -25,7 +27,7 @@ function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
     
-        if (inputs.name == "" || inputs.email == "" || inputs.phone == "" || inputs.subject == "") {
+        if (inputs.name == "" || inputs.email == "" || inputs.phone == "" ) {
             console.log("gee",inputs.email)
           setShow(true);
           setResponse("Please Fill In All Required Fields! ' * '  ");
@@ -33,7 +35,14 @@ function Contact() {
             setShow(false);
           }, 5000);
   return;
-} 
+} if(!inputs.email.match(validRegex)){
+ 
+  setShow(true);
+  setResponse("Enter Valid Email");
+  setTimeout(function () {
+    setShow(false);
+  }, 5000);
+}
         
         
         else {
