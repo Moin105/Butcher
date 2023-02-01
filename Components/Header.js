@@ -19,9 +19,10 @@ function Header() {
       </figure></Link>
       <div className={styles.boxer}>
 
-      <button className={styles.uan}>
+      <a href="tel:03302229222"><button className={styles.uan}>
        UAN No: 0330 222 9 222
-      </button><Link href="#contact"><button className={styles.connect}>
+      </button></a>
+      <Link href="#contact"><button className={styles.connect}>
        Lets Connect
       </button></Link>
       </div>

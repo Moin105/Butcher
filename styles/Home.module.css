@@ -307,7 +307,6 @@
 }
 .section .wrapper .boxes .cards p {
   max-width: 118px;
-  word-break: break-all;
 }
 
 .section2 {
@@ -857,6 +856,7 @@
   flex-direction: column;
 }
 .sigma .sig {
+  margin: 0;
   width: 150px;
   height: 150px;
   position: relative;
@@ -994,7 +994,6 @@
   }
   .section .wrapper .boxes .cards p {
     max-width: 118px;
-    word-break: break-all;
   }
   .section2 {
     width: 100%;
@@ -1016,7 +1015,6 @@
   }
   .section2 .wrapper .des p {
     max-width: 220px;
-    word-break: break-all;
     font-size: 14px;
     line-height: 16px;
   }
@@ -1438,7 +1436,6 @@
   }
   .section .wrapper .boxes .cards p {
     max-width: 118px;
-    word-break: break-all;
   }
   .section2 {
     width: 100%;
@@ -1465,7 +1462,6 @@
   }
   .section2 .wrapper .des p {
     max-width: 465px;
-    word-break: break-all;
     font-size: 14px;
     text-align: center;
     line-height: 16px;
@@ -1897,7 +1893,6 @@
   }
   .section .wrapper .boxes .cards p {
     max-width: 118px;
-    word-break: break-all;
   }
   .section2 {
     width: 100%;
@@ -1924,7 +1919,6 @@
   }
   .section2 .wrapper .des p {
     max-width: 265px;
-    word-break: break-all;
     font-size: 14px;
     line-height: 16px;
   }

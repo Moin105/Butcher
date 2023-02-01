@@ -314,7 +314,7 @@ background-size: cover;
       }
       p{
         max-width: 118px;
-        word-break: break-all;
+        // word-break: break-all;
       }
     }
   }
@@ -883,10 +883,12 @@ line-height: 24px;
 .sigma{
   display: flex;
   position: absolute;
+
   top: 200px;
   right: 0px;
   flex-direction: column;
   .sig{
+    margin: 0;
     width: 150px;
     height: 150px;
     position: relative;
@@ -1021,7 +1023,7 @@ line-height: 24px;
            }
            p{
              max-width: 118px;
-             word-break: break-all;
+            //  word-break: break-all;
            }
          }
        }
@@ -1046,7 +1048,7 @@ line-height: 24px;
          }
          p{
            max-width: 220px;
-           word-break: break-all;
+          //  word-break: break-all;
            font-size: 14px;
            line-height: 16px;
          }
@@ -1476,7 +1478,7 @@ line-height: 24px;
              }
              p{
                max-width: 118px;
-               word-break: break-all;
+              //  word-break: break-all;
              }
            }
          }
@@ -1504,7 +1506,7 @@ line-height: 24px;
            }
            p{
              max-width: 465px;
-             word-break: break-all;
+            //  word-break: break-all;
              font-size: 14px;
              text-align: center;
              line-height: 16px;
@@ -1945,7 +1947,7 @@ line-height: 24px;
              }
              p{
                max-width: 118px;
-               word-break: break-all;
+              //  word-break: break-all;
              }
            }
          }
@@ -1973,7 +1975,7 @@ line-height: 24px;
            }
            p{
              max-width: 265px;
-             word-break: break-all;
+            //  word-break: break-all;
              font-size: 14px;
              line-height: 16px;
            }
