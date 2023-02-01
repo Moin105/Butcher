@@ -47,7 +47,7 @@ function Contact() {
             .then((response) => {return response.json()})
             .then((res) => {
               console.log(res);
-              setResponse(res.message);
+              setResponse("Submitted Successfully");
               console.log(res.message);
           
             });
