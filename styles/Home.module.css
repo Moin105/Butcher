@@ -799,9 +799,10 @@
   color: #D61F25;
   font-family: "Poppins";
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 16px;
   margin: 0px 0px 8px 0px;
 }
 .footer .wrapper .foot2 .ul .li {
