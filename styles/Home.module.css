@@ -730,6 +730,8 @@
 }
 .footer .wrapper .foot1 .bod .list .icon {
   font-size: 24px;
+  height: 24px;
+  width: 24px;
   color: #D61F25;
 }
 .footer .wrapper .foot1 .bod .list .p {
@@ -1276,6 +1278,8 @@
   .footer .wrapper .foot1 .bod .list .icon {
     font-size: 18px;
     color: #D61F25;
+    height: 18px;
+    width: 18px;
   }
   .footer .wrapper .foot1 .bod .list .p {
     font-family: "Poppins";
