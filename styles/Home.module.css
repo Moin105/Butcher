@@ -1286,8 +1286,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 10px;
-    color: #D61F25;
+    line-height: 14px;
+    color: #d61f25;
+    margin: 5px 0px 0px 0px;
   }
   .footer .wrapper .foot1 .p {
     max-width: 320px;

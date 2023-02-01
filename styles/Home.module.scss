@@ -750,6 +750,7 @@ justify-content: center;
           width: 100%;
           gap: 15px;
           justify-content: flex-start;
+          
           align-items: center;
         
         .icon{
@@ -763,6 +764,7 @@ justify-content: center;
           font-style: normal;
           font-weight: 400;
           font-size: 20px;
+
           line-height: 30px;
           color: #D61F25;
         }}
@@ -1315,12 +1317,13 @@ line-height: 24px;
             width: 18px
           }
           .p{
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 10px;
-            color: #D61F25;
+               font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #d61f25;
+    margin: 5px 0px 0px 0px;
           }}
          }
          .p{
