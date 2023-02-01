@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import styles from '../styles/Home.module.css'
 import Image from "next/image";
 import doctor from '../public/butcher.png'
@@ -9,8 +9,8 @@ function Contact() {
   const router = useRouter();
   const [show, setShow] = useState(false);
   var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
   const [response, setResponse] = useState("");
+  const [stem,setStem ] = useState(false)
     const [inputs, setInputs] = useState({
         name: "",
         email: "",
@@ -18,7 +18,13 @@ function Contact() {
         phone:"",
         subject:""
       });
+useEffect(() => {
+
+}, [response])
+
+  
       const handleChange = (e) => {
+        setStem(true)
         setInputs({
           ...inputs,
           [e.target.name]: e.target.value,
@@ -26,22 +32,28 @@ function Contact() {
       };
       const handleSubmit = (e) => {
         e.preventDefault();
-    
+      setResponse("")
         if (inputs.name == "" || inputs.email == "" || inputs.phone == "" ) {
             console.log("gee",inputs.email)
           setShow(true);
           setResponse("Please Fill In All Required Fields! ' * '  ");
           setTimeout(function () {
             setShow(false);
-          }, 5000);
+          }, 3000);
   return;
 } if(!inputs.email.match(validRegex)){
- 
-  setShow(true);
+   console.log("safewgwe",response)
+   
+  // setTimeout(function () {
+    setShow(true);
+  // }, 2000);
+  // setShow(true);
   setResponse("Enter Valid Email");
+  // setResponse("Please Fill In All Required Fields! ' * '  ");
+  // setResponse("Enter Valid Email");
   setTimeout(function () {
     setShow(false);
-  }, 5000);
+  }, 3000);
 }
         
         
@@ -56,10 +68,15 @@ function Contact() {
             .then((response) => {return response.json()})
             .then((res) => {
               console.log(res);
-              setResponse("Submitted Successfully");
-              console.log(res.message);
+            
+              setResponse(prevState => prevState ="your mail is successfully sent");
+              
+  
+              // console.log(res.message);
           
             });
+            if(inputs.email.match(validRegex)){
+            setResponse("your mail is successfully sent");}
           setShow(true);
           setTimeout(function () {
             setShow(false);
