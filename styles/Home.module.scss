@@ -514,6 +514,7 @@ background-size: cover;
               display: flex;
               justify-content: space-between;
               width: 100%;
+              align-items: flex-end;
               .simart{
                 display: flex;
                 flex-direction: column;
@@ -1233,9 +1234,9 @@ line-height: 24px;
         .left{
             margin: 0px 57px 0px 0px;
             .figure{
-                width: 375px;
-                height: 397px;
-                margin-bottom: -56px;
+              width: 407px;
+              height: 506px;
+              margin-bottom: 0px;
             }
         }
         .right{
@@ -2423,10 +2424,10 @@ line-height: 24px;
       left: 50%;
       display: block;
       padding: 2em;
-      font-size: 28px;
+      font-size: 18px;
       min-width: 20em;
       max-width: 70%;z-index: 111111111111111111111111111111;
-      color: #FFFFFF;
+      color: #D61F25;
       background-color: black;
       border-radius: 1em;
       transform: translate(-50%, -50%);

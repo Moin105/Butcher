@@ -486,6 +486,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: flex-end;
 }
 .contact .sep .right .form .crow .simart {
   display: flex;
@@ -1189,9 +1190,9 @@
     margin: 0px 57px 0px 0px;
   }
   .contact .sep .left .figure {
-    width: 375px;
-    height: 397px;
-    margin-bottom: -56px;
+    width: 407px;
+    height: 506px;
+    margin-bottom: 0px;
   }
   .contact .sep .right {
     width: 60%;
@@ -2351,11 +2352,11 @@
   left: 50%;
   display: block;
   padding: 2em;
-  font-size: 28px;
+  font-size: 18px;
   min-width: 20em;
   max-width: 70%;
   z-index: 111111111111111100000000000000;
-  color: #FFFFFF;
+  color: #D61F25;
   background-color: black;
   border-radius: 1em;
   transform: translate(-50%, -50%);

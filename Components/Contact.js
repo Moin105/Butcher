@@ -28,7 +28,7 @@ function Contact() {
         if (inputs.name == "" || inputs.email == "" || inputs.phone == "" || inputs.subject == "") {
             console.log("gee",inputs.email)
           setShow(true);
-          setResponse("Fill Required Details");
+          setResponse("Please Fill In All Required Fields! ' * '  ");
           setTimeout(function () {
             setShow(false);
           }, 5000);
@@ -80,7 +80,7 @@ function Contact() {
                      <div className={styles.crow}>
                     <div className={styles.simart}>
                       <span className={styles.required}>
-                        required
+                        *
                       </span>
                        <input
                         type='text'
@@ -94,7 +94,7 @@ function Contact() {
                     </div>  
                     <div className={styles.simart}>
                     <span className={styles.required}>
-                        required
+                        *
                       </span>
                         <input
                         type='text'
@@ -112,7 +112,7 @@ function Contact() {
                       
                       <div className={styles.simart}>
                       <span className={styles.required}>
-                        required
+                        *
                       </span>
                       <input
                         type='text'
@@ -125,9 +125,6 @@ function Contact() {
                       />
                       </div>
                       <div className={styles.simart}>
-                      <span className={styles.required}>
-                        required
-                      </span>
                       <input
                         type='text'
                         name='subject'
