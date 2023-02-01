@@ -81,6 +81,13 @@ useEffect(() => {
           setTimeout(function () {
             setShow(false);
           }, 3000);
+          setInputs({
+            name: "",
+            email: "",
+            message: "",
+            phone:"",
+            subject:""
+          })
         }
       };
   return (

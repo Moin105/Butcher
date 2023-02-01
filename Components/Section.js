@@ -27,7 +27,7 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
                                 objectFit="cover"
                             /> 
                         </figure>
-                <p></p>
+                <p>Hygiene</p>
             </div>
           <div className={styles.cards}>
                 <figure className={styles.box}>
@@ -38,7 +38,8 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
                     objectFit="contain"
                 /> 
                 </figure>
-                <p></p>
+                <p>Temperature <br></br>
+control vehicle</p>
             </div>
             <div className={styles.cards}>
                 <figure className={styles.box}>
@@ -49,7 +50,8 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
                     objectFit="contain"
                 /> 
                 </figure>
-                <p></p>
+                <p>Bacteria <br></br>
+free</p>
             </div>
             <div className={styles.cards}>
                 <figure className={styles.box}>
@@ -60,7 +62,8 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
                     objectFit="contain"
                 /> 
                 </figure>
-                <p></p>
+                <p>Quality <br></br>
+compliance</p>
             </div>
             <div className={styles.cards}>
                 <figure className={styles.box}>
@@ -71,7 +74,8 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
                     objectFit="contain"
                 /> 
                 </figure>
-                <p></p>
+                <p>Medically 
+<br></br>checked</p>
             </div> 
         </div>  </div>
       

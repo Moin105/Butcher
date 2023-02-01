@@ -58,6 +58,11 @@ Rawalpindi.</p></li>
             </div>
  </div>
         </div>
+        <div className={styles.wrappr}>
+         <p className={styles.sac}>
+         © 2022 — Meat Pearls. All Rights Reserved.
+         </p>
+        </div>
        </div>
     </>
   )
