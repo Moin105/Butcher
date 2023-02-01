@@ -10,6 +10,8 @@ import b5 from '../public/b5.png'
 function Section() {
   return (
     <>
+            <div style={{display:"flex",flexDirection:"column",width:"100%",alignItems:"center",background:"white"}}>
+
     <div className={styles.section} id="whypearlmeat">
         <div className={styles.wrapper}>
              <h2 className={styles.h2}>Reasons to buy from Pearl Meat</h2>
@@ -74,7 +76,7 @@ Products that Pearl Meat currently supplying in market include fresh Goat meat, 
         </div>  </div>
       
     </div>
-    </>
+    </div></>
   )
 }
 

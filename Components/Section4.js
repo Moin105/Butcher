@@ -7,6 +7,8 @@ import Image from 'next/image'
 function Section4() {
   return (
     <>
+            <div style={{display:"flex",flexDirection:"column",width:"100%",alignItems:"center",background:"white"}}>
+
     <div className={styles.section3}>
        <div className={styles.wrapper}>
             <div className={styles.left}> 
@@ -56,6 +58,7 @@ slaughterhouse to our retail stores.</p>
                </div>
             </div>
        </div>
+    </div>
     </div>
     </>
   )

@@ -258,6 +258,7 @@
 
 .section {
   padding: 119px 0px;
+  background: white;
   justify-content: space-between;
   display: flex;
 }
@@ -279,6 +280,7 @@
   max-width: 1248px;
   font-weight: 400;
   font-size: 20px;
+  color: #000000;
   line-height: 30px;
   text-align: center;
 }
@@ -601,6 +603,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FFFFFF;
 }
 .section3 .wrapper {
   max-width: 1309px;
@@ -624,6 +627,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
+  color: #000000;
   font-size: 32px;
   line-height: 42px;
 }
@@ -638,6 +642,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  color: #000000;
   margin-bottom: 30px;
   line-height: 32px;
 }
@@ -661,6 +666,7 @@
   font-weight: 600;
   font-size: 24px;
   margin: 10px 0px;
+  color: #000000;
   line-height: 20px;
 }
 .section3 .wrapper .right .rowthing .disp .p {
@@ -668,6 +674,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
+  color: #000000;
   font-size: 20px;
   margin: 0px;
   line-height: 32px;
