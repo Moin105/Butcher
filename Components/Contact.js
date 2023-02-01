@@ -28,7 +28,7 @@ function Contact() {
         if (inputs.name == "" || inputs.email == "" || inputs.phone == "" || inputs.subject == "") {
             console.log("gee",inputs.email)
           setShow(true);
-          setResponse("Enter Your Name");
+          setResponse("Fill Required Details");
           setTimeout(function () {
             setShow(false);
           }, 5000);
