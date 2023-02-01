@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import logo from '../public/logo.png';
 import {HiChevronDoubleRight} from 'react-icons/hi'
+import {CiShop} from 'react-icons/ci'
 // import arrow from '../public/arrow.png';
 import Link from 'next/link'
 
@@ -17,9 +18,17 @@ function Footer() {
                 <figure className={styles.figure}>
                 <Image priority src={logo} alt="banner" layout="fill"  objectFit="contain"/>
                 </figure>
-                <p className={styles.p} style={{maxWidth:"420px"}}>
+                <div className={styles.bod}>
+                <div className={styles.list}>
+                  <span className={styles.icon}><CiShop/></span><p className={styles.p}>CSD Mega Mall Rawalpindi.</p>                    
+                </div> 
+                <div className={styles.list}>
+                <span className={styles.icon}><CiShop/></span><p className={styles.p}>CSD Mall Westridge Rawalpindi.</p>                    
+                </div>                 
+                </div>
+                {/* <p className={styles.p} style={{maxWidth:"420px"}}>
                 Pearl meat is one of the best quality meat providers in Pakistan. It is a brand of MHM foods and Beverages. Products include fresh Goat meat, fresh Beef meat, poultry, special meat, frozen mutton parts, veal parts and beef parts. 
-                </p>
+                </p> */}
             </div>
 
             <div className={styles.foote}>
@@ -40,7 +49,7 @@ function Footer() {
                     
                     <li className={styles.li}><h5 className={styles.p}>Head office:</h5> <p className={styles.info}>F-11/1, Major Road opposite PTCL Exchange
 office, Islamabad.</p></li>
-                    <li className={styles.li}><h5 className={styles.p}>Reigional: <br></br> office:</h5> <p className={styles.info}>84/B Main Iqbal Road Peshawer Road
+                    <li className={styles.li}><h5 className={styles.p}>Regional: <br></br> office:</h5> <p className={styles.info}>84/B Main Iqbal Road Peshawer Road
 Rawalpindi.</p></li>
                     <li className={styles.li}><h5 className={styles.p}>UAN No:</h5> <p className={styles.info}>0330 222 9 222</p></li>
                     <li className={styles.li}><h5 className={styles.p}>Email:</h5><p className={styles.info}>contact@pearlmeat.com</p></li>

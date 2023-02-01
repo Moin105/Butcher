@@ -147,7 +147,7 @@
   font-style: normal;
   color: white;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 40px;
   text-align: center;
 }
@@ -487,11 +487,21 @@
   justify-content: space-between;
   width: 100%;
 }
+.contact .sep .right .form .crow .simart {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.contact .sep .right .form .crow .simart .required {
+  color: #D61F25;
+  font-size: 8px;
+  margin: 0px 0px 0px 5px;
+}
 .contact .sep .right .form .crow .input {
   background: #000000;
   color-scheme: dark;
   border: 1px solid #777777;
-  width: 47%;
+  width: 100%;
   border-radius: 8px;
   padding: 22px 0px 22px 44px;
   margin-bottom: 32px;
@@ -561,7 +571,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 56px;
 }
 .section6 .wrapper .h {
@@ -605,14 +615,17 @@
   background-color: #FFFFFF;
 }
 .section3 .wrapper {
-  max-width: 1309px;
+  max-width: 1355px;
   gap: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .section3 .wrapper .left {
   max-width: 404px;
   width: 100%;
   margin: 0;
-  height: 630px;
+  height: 434px;
   position: relative;
 }
 .section3 .wrapper .right {
@@ -701,6 +714,30 @@
 .footer .wrapper .foot1 {
   display: flex;
   flex-direction: column;
+  color: #D61F25;
+}
+.footer .wrapper .foot1 .bod {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+}
+.footer .wrapper .foot1 .bod .list {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer .wrapper .foot1 .bod .list .icon {
+  font-size: 24px;
+  color: #D61F25;
+}
+.footer .wrapper .foot1 .bod .list .p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
   color: #D61F25;
 }
 .footer .wrapper .foot1 .figure {
@@ -851,7 +888,7 @@
 .sigma {
   display: flex;
   position: absolute;
-  top: 200px;
+  top: 100px;
   right: 0px;
   flex-direction: column;
 }
@@ -873,8 +910,8 @@
     flex-direction: column;
   }
   .sigma .sig {
-    width: 105px;
-    height: 105px;
+    width: 115px;
+    height: 115px;
     position: relative;
   }
   .header {
@@ -900,7 +937,7 @@
     padding: 170px 0px 16px 0px;
   }
   .banner .wrapper .h2 {
-    font-size: 28px;
+    font-size: 40px;
     line-height: 28px;
   }
   .banner .wrapper p {
@@ -1014,7 +1051,7 @@
     margin: -20px 0px 20px 0px;
   }
   .section2 .wrapper .des p {
-    max-width: 220px;
+    max-width: 265px;
     font-size: 14px;
     line-height: 16px;
   }
@@ -1051,13 +1088,13 @@
     align-items: center;
   }
   .section3 .wrapper {
-    max-width: 909px;
+    max-width: 995px;
     gap: 140px;
   }
   .section3 .wrapper .left {
     width: 361px;
     margin: 0;
-    height: 434px;
+    height: 341px;
     position: relative;
   }
   .section3 .wrapper .right {
@@ -1224,6 +1261,30 @@
     height: 85px;
     position: relative;
   }
+  .footer .wrapper .foot1 .bod {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+  }
+  .footer .wrapper .foot1 .bod .list {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer .wrapper .foot1 .bod .list .icon {
+    font-size: 18px;
+    color: #D61F25;
+  }
+  .footer .wrapper .foot1 .bod .list .p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: #D61F25;
+  }
   .footer .wrapper .foot1 .p {
     max-width: 320px;
     font-size: 13px;
@@ -1302,13 +1363,33 @@
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 1000px) {
+  .banner .wrapper {
+    padding: 170px 0px 16px 0px;
+  }
+  .banner .wrapper .h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .banner .wrapper p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .banner .wrapper .brand {
+    margin: 40px 0px 60px 0px;
+  }
+  .banner .wrapper .brand .img {
+    width: 170px;
+    height: 170px;
+  }
+}
 @media only screen and (max-width: 850px) {
   .sigma {
     display: flex;
     width: 120px;
     align-items: center;
     position: absolute;
-    top: 53px;
+    top: 65px;
     align-items: center;
     right: 24px;
     flex-direction: row;
@@ -1325,8 +1406,8 @@
     margin: 25px 0px 0px 0px;
   }
   .header .logo {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
   }
   .header .connect {
     padding: 9px 25px 9px 26px;
@@ -1651,6 +1732,9 @@
     display: flex;
     flex-direction: column;
   }
+  .contact .sep .right .form .crow .simart {
+    width: 100%;
+  }
   .contact .sep .right .form .crow .input {
     width: 100%;
     padding: 14px 0px 14px 22px;
@@ -1712,6 +1796,14 @@
     margin: 0px 0px 14px 0px;
     height: 85px;
     position: relative;
+  }
+  .footer .wrapper .foot1 .bod {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+  }
+  .footer .wrapper .foot1 .bod .list .p {
+    color: white;
   }
   .footer .wrapper .foot1 .p {
     max-width: 320px;
@@ -1792,8 +1884,8 @@
     margin: 25px 0px 0px 0px;
   }
   .header .logo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
   .header .connect {
     padding: 9px 25px 9px 26px;
@@ -2168,6 +2260,14 @@
     height: 85px;
     position: relative;
   }
+  .footer .wrapper .foot1 .bod {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+  }
+  .footer .wrapper .foot1 .bod .list .p {
+    color: white;
+  }
   .footer .wrapper .foot1 .p {
     max-width: 320px;
     font-size: 13px;
@@ -2388,6 +2488,14 @@
     margin: 0px 0px 14px 0px;
     height: 85px;
     position: relative;
+  }
+  .footer .wrapper .foot1 .bod {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+  }
+  .footer .wrapper .foot1 .bod .list .p {
+    color: white;
   }
   .footer .wrapper .foot1 .p {
     max-width: 320px;

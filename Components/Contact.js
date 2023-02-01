@@ -25,47 +25,13 @@ function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
     
-        if (inputs.name == "" ) {
+        if (inputs.name == "" || inputs.email == "" || inputs.phone == "" || inputs.subject == "") {
             console.log("gee",inputs.email)
           setShow(true);
           setResponse("Enter Your Name");
           setTimeout(function () {
             setShow(false);
           }, 5000);
-          return;
-        }
-        else   if (inputs.email == "" ) {
-          console.log("gee",inputs.email)
-        setShow(true);
-        setResponse("Enter Your Email");
-        setTimeout(function () {
-          setShow(false);
-        }, 5000);
-        return;
-      }
-      else   if ( inputs.message == "") {
-        console.log("gee",inputs.email)
-      setShow(true);
-      setResponse("Leave A Message");
-      setTimeout(function () {
-        setShow(false);
-      }, 5000);
-      return;
-    }  else   if ( inputs.phone == "") {
-      console.log("gee",inputs.email)
-    setShow(true);
-    setResponse("Enter Your Phone Number");
-    setTimeout(function () {
-      setShow(false);
-    }, 5000);
-    return;
-  }  else   if ( inputs.subject == "") {
-    console.log("gee",inputs.email)
-  setShow(true);
-  setResponse("Enter Subject");
-  setTimeout(function () {
-    setShow(false);
-  }, 5000);
   return;
 } 
         
@@ -112,7 +78,11 @@ function Contact() {
             <h2 className={styles.h2}>Diversify with us.<br></br>Get in touch Today!</h2>
         <p className={styles.p}></p>
                      <div className={styles.crow}>
-                     <input
+                    <div className={styles.simart}>
+                      <span className={styles.required}>
+                        required
+                      </span>
+                       <input
                         type='text'
                         name='name'
                         id='name'
@@ -121,7 +91,12 @@ function Contact() {
                         value={inputs.name}
                         onChange={handleChange}
                       />
-                       <input
+                    </div>  
+                    <div className={styles.simart}>
+                    <span className={styles.required}>
+                        required
+                      </span>
+                        <input
                         type='text'
                         name='email'
                         id='email'
@@ -130,9 +105,16 @@ function Contact() {
                         value={inputs.email}
                         onChange={handleChange}
                       />
+                    </div>
+                     
                      </div>
                     <div className={styles.crow}>
-                    <input
+                      
+                      <div className={styles.simart}>
+                      <span className={styles.required}>
+                        required
+                      </span>
+                      <input
                         type='text'
                         name='phone'
                         id='phone'
@@ -141,7 +123,12 @@ function Contact() {
                         value={inputs.phone} 
                         onChange={handleChange}
                       />
-                        <input
+                      </div>
+                      <div className={styles.simart}>
+                      <span className={styles.required}>
+                        required
+                      </span>
+                      <input
                         type='text'
                         name='subject'
                         id='subject'
@@ -150,6 +137,8 @@ function Contact() {
                         value={inputs.subject}
                         onChange={handleChange}
                       />
+                      </div>
+                        
                     </div>
                     <textarea
                       type='text'
@@ -168,7 +157,7 @@ function Contact() {
         </div>
     </div>
     
-    {show == true && <Modal message={response} />}
+    {show == true && <Modal message={response} setShow={setShow}/>}
 </>)
 }
 

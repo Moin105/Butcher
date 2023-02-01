@@ -16,7 +16,7 @@ function Section4() {
                     src={meating}
                     alt="system"
                     layout="fill"
-                    objectFit="contain"
+                    objectFit="cover"
                     />
             </div>
             <div className={styles.right}>
