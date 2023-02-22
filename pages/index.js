@@ -15,7 +15,7 @@ export default function Home() {
     <div className={styles.container}>
       
       <Head>
-        <title>Pear Meat</title>
+        <title>Pearl Meat</title>
         <meta name="description" content="Pearl Meat" />
         <link rel="icon" href="../public/logo.png" />
       </Head>
